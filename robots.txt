@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://golf.nice.okinawa/sitemap.xml
