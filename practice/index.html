@@ -10,6 +10,34 @@
 <link rel="alternate" hreflang="x-default" href="https://golf.nice.okinawa/practice/">
 <link rel="alternate" hreflang="en" href="https://golf.nice.okinawa/practice/">
 <meta property="og:url" content="https://golf.nice.okinawa/practice/">
+<style id="nice-screenshot-mark-style">
+.nice-screenshot-mark {
+  position: fixed;
+  left: max(10px, env(safe-area-inset-left));
+  bottom: max(10px, env(safe-area-inset-bottom));
+  z-index: 2147483000;
+  max-width: min(70vw, 520px);
+  padding: 5px 8px;
+  border: 1px solid rgba(17, 24, 39, 0.14);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.88);
+  color: rgba(17, 24, 39, 0.74);
+  box-shadow: 0 4px 14px rgba(17, 24, 39, 0.10);
+  font: 600 11px/1.25 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0;
+  pointer-events: none;
+  backdrop-filter: blur(10px);
+}
+@media (max-width: 640px) {
+  .nice-screenshot-mark {
+    max-width: calc(100vw - 20px);
+    font-size: 10px;
+  }
+}
+@media print {
+  .nice-screenshot-mark { display: none; }
+}
+</style>
 </head>
 <body>
   <header class="site-header"><nav class="nav" aria-label="Main navigation"><a class="brand" href="../index.html">golf.nice.okinawa<small>Okinawa Golf Guide</small></a><button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span></button><div class="nav-links"><a href="../courses/index.html">18 Hole Courses</a><a href="../short-course/index.html">9 Hole Courses</a><a href="../practice/index.html">Practice</a><a href="../shops/index.html">Shops</a><a href="../lessons/index.html">Golf Lessons</a><a href="../index.html#guide">Guide Book</a><a href="#contact">Contact</a></div><div class="nav-actions"><a class="btn btn-ghost" href="#contact">Contact</a><a class="btn btn-primary" href="../index.html#buy">Get the Guide</a></div></nav></header>
@@ -22,5 +50,6 @@
     <section class="section" id="contact"><div class="container contact-band"><div><div class="eyebrow">Contact</div><h2>Need Help Planning Your Golf Trip?</h2><p>Ask about practice options, lesson bookings and guide book purchase.</p></div><div class="contact-actions"><a class="btn btn-light" href="#">LINE</a><a class="btn btn-light" href="mailto:hello@golf.nice.okinawa">Email</a><a class="btn btn-light" href="#">WhatsApp</a><a class="btn btn-outline" href="#">Instagram</a></div></div></section>
   </main>
   <div class="sticky-contact"><a class="btn btn-blue" href="#contact">Contact</a><a class="btn btn-primary" href="../index.html#buy">Get the Guide</a></div><footer class="site-footer"><div class="footer-inner"><div><strong>golf.nice.okinawa</strong><br>Okinawa Golf Guide.</div><div class="footer-links"><a href="../index.html">Home</a><a href="../courses/index.html">18 Hole Courses</a><a href="../short-course/index.html">9 Hole Courses</a><a href="../practice/index.html">Practice</a><a href="../shops/index.html">Shops</a><a href="../lessons/index.html">Golf Lessons</a><a href="../index.html#guide">Guide Book</a><a href="#contact">Contact</a></div></div></footer><script src="../assets/site.js"></script>
+<div class="nice-screenshot-mark" aria-label="Page address and version">golf.nice.okinawa/practice/ · v2026.06.14</div>
 </body>
 </html>
